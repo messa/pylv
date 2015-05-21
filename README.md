@@ -9,7 +9,8 @@ then you want of course to execute all Python scripts using the Python
 executable from that venv/virtualenv (`venv/bin/python`) and
 not the system one (`/usr/bin/python`).
 
-This can be solved by using the shebang `#!/usr/bin/env pylv` instead of `#!/usr/bin/env python`.
+This can be solved by using the [shebang](http://en.wikipedia.org/wiki/Shebang_%28Unix%29)
+`#!/usr/bin/env pylv` instead of `#!/usr/bin/env python`.
 The `pylv` script looks for `venv/bin/python` in current directory, then in parent directory etc.
 and executes it.
 So you can just run `./myscript.py` instead of `venv/bin/python myscript.py` or instead of
