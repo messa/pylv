@@ -2,6 +2,8 @@
 pylv - run Python scripts in local virtual environment
 ======================================================
 
+[![Join the chat at https://gitter.im/messa/pylv](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/messa/pylv?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 If you use venv or virtualenv for your Python project,
 then you want of course to execute all Python scripts using the Python
 executable from that venv/virtualenv (`venv/bin/python`) and
