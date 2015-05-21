@@ -1,4 +1,4 @@
-#!/usr/bin/env pylv
+#!/usr/bin/env py3lv
 
 import sys
 

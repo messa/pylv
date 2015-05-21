@@ -24,7 +24,7 @@ def main():
                 # found it!
                 exec_args = [exec_path] + sys.argv[1:]
                 os.execv(exec_path, exec_args)
-        path += '../'
+        path += '..' + sep
     sys.exit('%s: failed to locate Python virtual env (venv_names: %r, exec_name: %r)' % (
         our_name, venv_names, exec_name))
 
