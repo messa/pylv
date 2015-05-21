@@ -16,3 +16,9 @@ So you can just run `./myscript.py` instead of `venv/bin/python myscript.py` or 
 activating the virtual environment first.
 
 It's less typing and much easier for non-developers (or non-Python developers).
+
+Installation
+------------
+
+    $ sudo pip install git+https://github.com/messa/pylv.git
+
